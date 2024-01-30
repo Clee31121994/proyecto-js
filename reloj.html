@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto JavaScript</title>
+    
+    <!-- Estilos CCS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link id="theme" rel="stylesheet" type="text/css" href="css/green.css" />
+
+    <!-- jQery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Moment -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/locale/es.min.js"></script>
+
+
+    <!-- Mis Scripts -->
+    <script type="text/JavaScript" src="js/main.js"></script>
+
+</head>
+<body id="body">
+    <div id="selector-theme">
+       <div id="to-green"></div>
+       <div id="to-red"></div>
+       <div id="to-blue"></div>
+    </div>
+
+    <section id="global">
+
+        <!-- Encabezado -->
+        <header>
+            <div id="logo">
+                <h1>PROYECTO JS 2024</h1>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Calculadora</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="about.html">Sobre Mi</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- Contenido -->
+        <section id="content">
+
+            <div id="box">
+              <!-- Cargar reloj -->
+              <div id="reloj"></div>  
+ 
+              
+               
+            </div>
+            <aside id="sidebar">
+                <div id="about">
+                    <h4><span>¿Quien soy?</span></h4>
+                    <img src="img/caracol.jpg"> 
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas orci sed purus faucibus convallis. 
+                        Aliquam laoreet massa vel interdum sodales. Aliquam non nisi facilisis, suscipit augue ultrices, tristique elit.</p>
+                </div>
+
+                <div id="login">
+                    <h4><span>Identifiquese</span></h4>
+                    <form>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="form_name"/>
+
+                        <label for="email">Correo electrónico</label>
+                        <input type="text" name="email" />
+
+                        <label for="password">Contraseña</label>
+                        <input type="text" name="password" />
+
+                        <input type="submit" value="Entrar">
+                    </form>
+                </div>
+
+            </aside>
+
+            <aside id="sidebar2">
+                <div class="clock">
+                    <div class="number" style="--n:1"><b>1</b></div>
+                    <div class="number" style="--n:2"><b>2</b></div>
+                    <div class="number" style="--n:3"><b>3</b></div>
+                    <div class="number" style="--n:4"><b>4</b></div>
+                    <div class="number" style="--n:5"><b>5</b></div>
+                    <div class="number" style="--n:6"><b>6</b></div>
+                    <div class="number" style="--n:7"><b>7</b></div>
+                    <div class="number" style="--n:8"><b>8</b></div>
+                    <div class="number" style="--n:9"><b>9</b></div>
+                    <div class="number" style="--n:10"><b>10</b></div>
+                    <div class="number" style="--n:11"><b>11</b></div>
+                    <div class="number" style="--n:12"><b>12</b></div>
+                    <div class="hour-hand" id="hour-hand"></div>
+                    <div class="minute-hand" id="minute-hand"></div>
+                    <div class="second-hand" id="second-hand"></div>
+                    <div class="center-dot"></div>
+                </div>
+
+            </aside>
+
+            <div class="clearfix"></div>  
+        </section>
+
+    </section>
+
+    <footer>
+        Cristian Lee &copy;
+
+        <a href="#" class="subir">Ir arriba</a>
+    </footer>
+</body>
+</html>
